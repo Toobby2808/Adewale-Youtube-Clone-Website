@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Adewale Adesanya">
+  <meta name="description" content="This page is a youtube clone page">
+  <title>YouTube Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- FIXED NAVBAR -->
+
+  <header class="header">
+    <div class="left-content">
+      <img src="icons/hamburger-menu.svg" class="hambuger-icon">
+      <img src="icons/youtube-logo.svg" class="logo">
+    </div>
+
+    <div class="middle-content">
+      <input type="text" class="search-box" placeholder="Search">
+      <button class="search-btn">
+        <img src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-btn">
+        <img src="icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+
+    <div class="right-content">
+      <div class="upload">
+        <img src="icons/upload-svgrepo-com.svg">
+        <div class="tooltip">Upload Video</div>
+      </div>
+      <div class="tools">
+        <img src="icons/youtube-apps.svg">
+        <div class="tooltip">Search</div>
+        <div class="tooltip">Tools</div>
+      </div>
+      <div class="notification">
+        <img src="icons/notifications.svg">
+        <div class="tooltip">Search</div>
+        <div class="notification-count">9+</div>
+      </div>
+      <div class="settings">
+        <img src="icons/settings-svgrepo-com.svg">
+        <div class="tooltip">Settings</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SIDEBAR -->
+   <div class="sidebar">
+    <div class="sidebar-link-section">
+      <div class="sidebar-links">
+        <img src="icons/home.svg">
+        <p>Home</p>
+      </div>
+      <div class="sidebar-links">
+        <img src="icons/watch-svgrepo-com.svg">
+        <p>Shorts</p>
+      </div>
+      <div class="sidebar-links">
+        <img src="icons/subscriptions.svg">
+        <p>Subscriptions</p>
+      </div>
+    </div>
+
+    <div class="sidebar-link-section">
+      <div class="sidebar-link-title">You</div>
+      <div class="sidebar-links">
+        <img src="icons/channels-svgrepo-com.svg">
+        <p>Your channel</p>
+      </div>
+      <div class="sidebar-links">
+        <img src="icons/history-svgrepo-com.svg">
+        <p>Your History</p>
+      </div>
+      <div class="sidebar-links">
+        <img src="icons/playlist-svgrepo-com.svg">
+        <p>Playlists</p>
+      </div>
+      <div class="sidebar-links">
+        <img src="icons/video-svgrepo-com.svg">
+        <p>Your videos</p>
+      </div>
+      <div class="sidebar-links">
+        <img src="icons/like-right-svgrepo-com.svg">
+        <p>Like videos</p>
+      </div>
+    </div>
+
+    <div class="sidebar-link-section">
+      <div class="sidebar-link-title">Explore</div>
+      <div class="sidebar-links">
+        <img src="icons/channels-svgrepo-com.svg">
+        <p>Your channel</p>
+      </div>
+      <div class="sidebar-links">
+        <img src="icons/trending-web-fire-ui-basic-flame-svgrepo-com.svg">
+        <p>Trending</p>
+      </div>
+      <div class="sidebar-links">
+        <img src="icons/youtube-music.svg">
+        <p>Music</p>
+      </div>
+      <div class="sidebar-links">
+        <img src="icons/news-news-release-to-promote-svgrepo-com.svg">
+        <p>News</p>
+      </div>
+      <div class="sidebar-links">
+        <img src="icons/explore-svgrepo-com.svg">
+        <p>Sport</p>
+      </div>
+    </div>
+
+    <div class="sidebar-link-section">
+      <div class="sidebar-links">
+        <img src="icons/settings-svgrepo-com.svg">
+        <p>Settings</p>
+      </div>
+      <div class="sidebar-links">
+        <img src="icons/history-svgrepo-com.svg">
+        <p>Report history</p>
+      </div>
+      <div class="sidebar-links">
+        <img src="icons/help-circle-svgrepo-com.svg">
+        <p>Help</p>
+      </div>
+      <div class="sidebar-links">
+        <img src="icons/feedback-svgrepo-com.svg">
+        <p>Send feedback</p>
+      </div>
+    </div>
+   </div>
+
+   <section class="top-nav">
+    <div class="top-nav-links">All</div>
+    <div class="top-nav-links">Javascript</div>
+    <div class="top-nav-links">Gaming</div>
+    <div class="top-nav-links">Live</div>
+    <div class="top-nav-links">Music</div>
+    <div class="top-nav-links">News</div>
+    <div class="top-nav-links">Andriod</div>
+    <div class="top-nav-links">Mixes</div>
+    <div class="top-nav-links">Computers</div>
+    <div class="top-nav-links">Nollywood</div>
+    <div class="top-nav-links">Premier League</div>
+    <div class="top-nav-links">Bitcoin</div>
+    <div class="top-nav-links">African Music</div>
+    <div class="top-nav-links">Playlists</div>
+    <div class="top-nav-links">Strategies</div>
+    <div class="top-nav-links">Highlight films</div>
+    <div class="top-nav-links">Strategies</div>
+   </section>
+
+   <!-- VIDEO SECTION -->
+   <section class="video-section">
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image1.webp" class="preview-img">
+        <div class="video-time">6:42</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image16.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Explore new investment opportunities and learn how to increase your income.
+          </p>
+          <p class="video-author">
+            AdexCode
+          </p>
+          <p class="video-stats">
+            12k views &#183; 7 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image2.jpg" class="preview-img">
+        <div class="video-time">8:42</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image2.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Javascript Tutorial Full Course - Beginner to Pro(2024).
+          </p>
+          <p class="video-author">
+            SuperSimpleDev
+          </p>
+          <p class="video-stats">
+            1M views &#183; 2 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image3.jpg" class="preview-img">
+        <div class="video-time">8:42</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image3.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Deep Work Music for Coders - Maximum Efficiency and ...
+          </p>
+          <p class="video-author">
+            Chill Flow
+          </p>
+          <p class="video-stats">
+            142k views &#183; 2 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image4.jpg" class="preview-img">
+        <div class="video-time">8:42</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image4.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            HIGHLIGHTS | MAN CITY 3-4 CELTIC | Haaland, Bobb, Perone...
+          </p>
+          <p class="video-author">
+            Man City
+          </p>
+          <p class="video-stats">
+            1M views &#183; 7 hours ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image5.jpg" class="preview-img">
+        <div class="video-time">8:42</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image5.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            10 Ways to Make Money as a Developer.
+          </p>
+          <p class="video-author">
+            Traversy Media 
+          </p>
+          <p class="video-stats">
+            3M views &#183; 7 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image6.jpg" class="preview-img">
+        <div class="video-time">8:42</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image6.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Day 13 of Learning Full Stack Web Development about Units in CSS.
+          </p>
+          <p class="video-author">
+            Tech-Teacher-official
+          </p>
+          <p class="video-stats">
+            8 views &#183; 7 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image7.jpg" class="preview-img">
+        <div class="video-time">8:42</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image7.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Learn Hover Effect Button Using CSS.
+          </p>
+          <p class="video-author">
+            AdexCode
+          </p>
+          <p class="video-stats">
+            500k views &#183; 2 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image8.jpg" class="preview-img">
+        <div class="video-time">100:00:00</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image8.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            100 Hours Time Calculator.
+          </p>
+          <p class="video-author">
+            IlovetoCode
+          </p>
+          <p class="video-stats">
+            12k views &#183; 7 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image9.jpg" class="preview-img">
+        <div class="video-time">2:42:00</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image9.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            HTML CSS JS Projects (Beginner): 30 projects using...
+          </p>
+          <p class="video-author">
+            Javascript King
+          </p>
+          <p class="video-stats">
+            215k views &#183; 3 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image10.jpg" class="preview-img">
+        <div class="video-time">2:52:16</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image10.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Pop Ballon To Find Love (Episode250).
+          </p>
+          <p class="video-author">
+            NonsMiraj
+          </p>
+          <p class="video-stats">
+            200k views &#183; 4 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image11.jpg" class="preview-img">
+        <div class="video-time">3:42:50</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image11.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Good Vibes Music to Listen to While Working.
+          </p>
+          <p class="video-author">
+            Paps Entertainment
+          </p>
+          <p class="video-stats">
+            12k views &#183; 7 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image12.jpg" class="preview-img">
+        <div class="video-time">2:12:44</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image12.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Village Rats (AKIN & PAWPAW).
+          </p>
+          <p class="video-author">
+            Premium Plus
+          </p>
+          <p class="video-stats">
+            12k views &#183; 7 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image13.jpg" class="preview-img">
+        <div class="video-time">16:42</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image13.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Curiosity Made Me Ask (SIMI & ISBAU).
+          </p>
+          <p class="video-author">
+            ISBAU
+          </p>
+          <p class="video-stats">
+            400k views &#183; 7 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image14.jpg" class="preview-img">
+        <div class="video-time">8:42</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image14.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Learn Computer Machine.
+          </p>
+          <p class="video-author">
+            AdexCode
+          </p>
+          <p class="video-stats">
+            73k views &#183; 25 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-container">
+      <div class="video-preview">
+        <img src="images/video-image15.jpg" class="preview-img">
+        <div class="video-time">2:32:04</div>
+      </div>
+      <div class="video-info-container">
+        <div class="channel-picture">
+          <img src="images/profile-image15.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            THE TERMINATOR.
+          </p>
+          <p class="video-author">
+            Commando Tv
+          </p>
+          <p class="video-stats">
+            6M views &#183; 8 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+</body>
+</html>
